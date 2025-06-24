@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "мари п",
+      "intents": [
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "StartConversationIntent",
+          "slots": [],
+          "samples": [
+            "начать разговор",
+            "поговорить с мари",
+            "консультация",
+            "помощь",
+            "совет"
+          ]
+        },
+        {
+          "name": "AskQuestionIntent",
+          "slots": [
+            {
+              "name": "question",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "спросить {question}",
+            "задать вопрос {question}",
+            "{question}",
+            "что думаешь о {question}",
+            "посоветуй {question}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+} 

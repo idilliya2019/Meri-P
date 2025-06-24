@@ -1,0 +1,1 @@
+web: python lady_perfection_bot.py 

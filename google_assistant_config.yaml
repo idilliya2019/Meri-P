@@ -1,0 +1,24 @@
+actions:
+  - name: actions.intent.MAIN
+    intent:
+      name: actions.intent.MAIN
+      trigger:
+        queryPatterns:
+          - Поговорить с Мэри П.
+          - Открыть Мэри П.
+          - Запустить Мэри П.
+          - Помощь от Мэри П.
+
+  - name: actions.intent.TEXT
+    intent:
+      name: actions.intent.TEXT
+      trigger:
+        queryPatterns:
+          - $any
+
+conversations:
+  - name: actions.intent.MAIN
+    url: https://your-webhook-url.com/webhook
+
+  - name: actions.intent.TEXT
+    url: https://your-webhook-url.com/webhook 
